@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="helloworld.jsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.18.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="React.Web.Mvc4" Version="5.2.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="helloworld.jsx" />
   </ItemGroup>
 
 </Project>

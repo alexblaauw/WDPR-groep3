@@ -22,4 +22,8 @@
     <TypeScriptCompile Include="helloworld.jsx" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ClientApp\" />
+  </ItemGroup>
+
 </Project>
